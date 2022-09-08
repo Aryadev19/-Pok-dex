@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #effffd;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  background-color: #1363df;
+  color: azure;
+}
+
+h3{
+    padding: 20px;
+}
+
+.title{
+    font-family: 'Prompt', sans-serif;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #393E46;
+}
+
+.container {
+    text-align: center;
+}
+
+.pokeball {
+  position: relative;
+  top: 7px;
+}
+
+.header {
+  background-color: #ffcd38;
+  font-size: xx-large;
+  text-align: center;
+  padding: 5vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    color: #5F6F94;
+}

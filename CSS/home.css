@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+}
+
+body{
+    background-color: #EFFFFD;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  background-color: #ffcd38;
+  font-size: xx-large;
+  text-align: center;
+  padding: 5vh;
+}
+
+h2 {
+  padding: 3vh;
+  font-size: 3rem;
+}
+
+form {
+  display: flex;
+  padding-top: 50px;
+  margin: 0 auto 0 auto;
+}
+
+input {
+  height: 50px;
+  width: 40vw;
+  margin-right: 0px;
+  margin-left: 450px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+}
+input[type="text"]::placeholder {
+  text-align: center;
+  color: #112b3c;
+  font-weight: bold;
+}
+
+button {
+  border: 1px solid seagreen;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  color: seagreen;
+  font-style: italic;
+  padding: 10px;
+  padding-right: 14px;
+  padding-left: 12px;
+  font-size: 17px;
+}
+
+button:hover {
+  background-color: seagreen;
+  color: white;
+  border: 1px solid seagreen;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #FAC213;
+    border-radius: 20px;
+    font-weight: 300;
+}
+
+footer{
+    margin-top: 40px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    background-color: #1363DF;
+    color: azure;
+}
+
+.pokeball {
+  position: relative;
+  top: 7px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.random{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}

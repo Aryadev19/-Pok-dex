@@ -22,12 +22,12 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 app.set('views', path.join(__dirname, 'views'));
+app.use(express.static(__dirname + "/"));
 
 app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.use(express.static(__dirname + "/"));
 
 //? Getting pokemon data from the api!
 const fetch = async (pokemonName) => {

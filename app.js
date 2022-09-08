@@ -25,7 +25,6 @@ app.use(express.static(__dirname + "/"));
 
 //? Getting pokemon data from the api!
 const fetch = async (pokemonName) => {
-  // with Async/Await
   try {
     const data = await P.getPokemonByName(pokemonName);
     return data;

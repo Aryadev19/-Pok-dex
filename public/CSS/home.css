@@ -21,15 +21,15 @@ h2 {
 
 form {
   display: flex;
-  padding-top: 50px;
+  padding-top: 3.125rem;
   margin: 0 auto 0 auto;
 }
 
 input {
-  height: 50px;
+  height: 3.125rem;
   width: 40vw;
   margin-right: 0px;
-  margin-left: 450px;
+  margin-left: 28.125rem;
   border: 2px solid black;
   border-radius: 5px;
 
@@ -46,10 +46,10 @@ button {
   background: rgb(255, 255, 255);
   color: seagreen;
   font-style: italic;
-  padding: 10px;
-  padding-right: 14px;
-  padding-left: 12px;
-  font-size: 17px;
+  padding: .6rem;
+  padding-right: .875rem;
+  padding-left: .75rem;
+  font-size: 1rem;
 }
 
 button:hover {
@@ -59,7 +59,7 @@ button:hover {
 }
 
 h3{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 a{
@@ -69,7 +69,8 @@ a{
     background-color: #FAC213;
     border-radius: 20px;
     font-weight: 300;
-}
+    box-shadow: 10px 21px 17px -8px rgba(0,0,0,0.75);
+  }
 
 footer{
     margin-top: 40px;
@@ -96,4 +97,27 @@ footer{
     margin-top: 30px;
     font-weight: 600;
     font-size: 1.5rem;
+}
+
+
+@media (max-width:900px) {
+  body{
+    width:170vw;
+  }
+  input{
+    margin-left:11.25rem;
+    width:60vw;
+  }
+  form{
+    padding-bottom: 3rem;
+  }
+
+  h3{
+    margin-bottom: 4rem;
+  }
+
+  footer{
+    margin-top: 12rem;
+  }
+  
 }

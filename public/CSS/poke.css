@@ -1,10 +1,12 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: #effffd;
   font-family: "Josefin Sans", sans-serif;
+  text-align: center;
 }
 
 footer {
@@ -40,7 +42,7 @@ h3{
 
 .header {
   background-color: #ffcd38;
-  font-size: xx-large;
+  font-size: x-large;
   text-align: center;
   padding: 5vh;
 }
@@ -53,4 +55,22 @@ h3{
     font-weight: 600;
     font-size: x-large;
     color: #5F6F94;
+}
+
+/* Media Queries */
+
+@media (max-width: 900px){
+
+  body{
+    width:230vw;
+  }
+
+  footer{
+    margin-top: 30rem;
+  }
+
+.container{
+  margin-top: 30rem;
+}
+
 }

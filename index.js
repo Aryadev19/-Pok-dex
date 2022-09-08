@@ -4,8 +4,6 @@ const app = express();
 import product from "./api/product.js";
 app.use("/api/product", product);
 
-
-
 const PORT = process.env.PORT || 3000;
 app.set("view engine", "ejs");
 import bodyParser from "body-parser";
@@ -21,7 +19,7 @@ const __filename = fileURLToPath(import.meta.url);
 
 const __dirname = path.dirname(__filename);
 
-app.set('views', path.join(__dirname, 'views'));
+app.set("views", path.join(__dirname, "views"));
 
 app.use(express.static(__dirname + "/public"));
 app.use(express.static(__dirname + "/images"));
@@ -29,7 +27,6 @@ app.use(express.static(__dirname + "/images"));
 app.get("/", (req, res) => {
   res.render("index");
 });
-
 
 //? Getting pokemon data from the api!
 const fetch = async (pokemonName) => {
@@ -108,13 +105,9 @@ app.get("/pokemon", (req, res) => {
     .catch((error) => console.log(error));
 });
 
-
-
 app.listen(PORT, () => {
   console.log(`listening at port ${PORT}`);
 });
 
 //Exporting app
-export{app}
-
-
+export { app };

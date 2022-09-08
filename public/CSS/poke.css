@@ -62,15 +62,20 @@ h3{
 @media (max-width: 900px){
 
   body{
-    width:230vw;
+    width:100vw;
   }
 
-  footer{
-    margin-top: 30rem;
+  .info{
+    flex-direction: column;
   }
 
-.container{
-  margin-top: 30rem;
-}
+
+  .pokemonImg{
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+
+  }
+
 
 }

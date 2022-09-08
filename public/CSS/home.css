@@ -102,10 +102,10 @@ footer{
 
 @media (max-width:900px) {
   body{
-    width:170vw;
+    width:100vw;
   }
   input{
-    margin-left:11.25rem;
+    margin-left:2rem;
     width:60vw;
   }
   form{

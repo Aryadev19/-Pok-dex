@@ -1,6 +1,9 @@
 import express from "express";
 const app = express();
 
+import product from "./api/product.js";
+app.use("/api/product", product);
+
 
 const PORT = process.env.PORT || 3000;
 app.set("view engine", "ejs");

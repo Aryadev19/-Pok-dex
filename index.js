@@ -5,6 +5,7 @@ import product from "./api/product.js";
 app.use("/api/product", product);
 
 
+
 const PORT = process.env.PORT || 3000;
 app.set("view engine", "ejs");
 import bodyParser from "body-parser";
@@ -108,5 +109,8 @@ app.get("/pokemon", (req, res) => {
 app.listen(PORT, () => {
   console.log(`listening at port ${PORT}`);
 });
+
+//Exporting app
+export{app}
 
 

@@ -23,7 +23,8 @@ const __dirname = path.dirname(__filename);
 
 app.set('views', path.join(__dirname, 'views'));
 
-app.use(express.static(__dirname + "/"));
+app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/images"));
 
 app.get("/", (req, res) => {
   res.render("index");
